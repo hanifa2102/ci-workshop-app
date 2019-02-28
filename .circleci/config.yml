@@ -40,7 +40,7 @@ jobs:
           at: .
       - run:
           name: deploy app to staging
-          command: bin/deploy_to_heroku.sh ci-workshop-app-bob-staging
+          command: bin/deploy_to_heroku.sh new-app-2102
   deploy_prod:
     docker:
       - image: circleci/python:3.6.1
